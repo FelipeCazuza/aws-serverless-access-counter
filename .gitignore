@@ -1,0 +1,40 @@
+# Terraform: manter .terraform.lock.hcl versionado.
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+**/tfplan
+crash.log
+crash.*.log
+*.tfvars
+*.tfvars.json
+
+# Credenciais locais, chaves privadas e temporarios do SOPS.
+.env
+.env.*
+**/credentials
+**/keys.txt
+**/key.txt
+*.agekey
+*.age-key
+*.key
+*.pem
+config/*
+!config/aws.secrets.example.json
+!config/aws.secrets.enc.json
+*.dec
+*.decrypted.*
+*.sops.tmp
+*.tmp
+*.swp
+*.swo
+*~
+
+# Artefatos de build e sistema.
+lambda/bootstrap
+lambda/function.zip
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*:Zone.Identifier

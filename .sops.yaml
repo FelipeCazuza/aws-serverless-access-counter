@@ -1,0 +1,3 @@
+creation_rules:
+  - path_regex: ^config/aws\.secrets\.enc\.json$
+    age: COLE_AQUI_SOMENTE_A_CHAVE_PUBLICA_AGE
