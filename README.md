@@ -450,8 +450,6 @@ deploy.ps1
 
 # Fluxo operacional
 
-![Fluxo operacional do laboratório](docs/images/lab-flow.png)
-
 O ciclo completo do laboratório é:
 
 ```text
